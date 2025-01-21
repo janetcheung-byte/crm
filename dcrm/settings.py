@@ -6,6 +6,9 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
+
+
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
@@ -43,6 +46,7 @@ MIDDLEWARE = [
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
 
 
 ROOT_URLCONF = 'dcrm.urls'
@@ -129,3 +133,11 @@ DATABASES['default'].update(db_from_env)
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
+
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# Additional static files locations
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
