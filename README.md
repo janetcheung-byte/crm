@@ -12,12 +12,8 @@ This is a CRM (Customer Relationship Management) web application built using Dja
 ## **Features**
 
 - 🏢 **Customer Management:** Store and manage customer information efficiently.
-- 📈 **Sales Tracking:** Track leads and sales performance.
-- 📊 **Dashboard Analytics:** Gain insights with interactive dashboards.
 - 🔍 **Search and Filter:** Quickly find customer data using advanced filters.
-- 📨 **Email Integration:** Send automated emails to clients.
 - 🛡️ **User Authentication:** Secure login and user management.
-- 📂 **File Uploads:** Manage documents related to clients.
 - ⚙️ **Role-Based Access Control:** Admin and staff user roles.
 
 ---
